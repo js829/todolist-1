@@ -2,8 +2,8 @@
 	// Database Constants
 	define("DB_SERVER", "127.0.0.1");
 	define("DB_USER", "root");
-	define("DB_PASS", "happy");
-	define("DB_NAME", "folio");
+	define("DB_PASS", "");
+	define("DB_NAME", "test");
 	// 1. Create a database connection
 	$connection = mysql_connect(DB_SERVER, DB_USER, DB_PASS);
 	if ( !$connection ) {
